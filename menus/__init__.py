@@ -1,0 +1,40 @@
+def menu_principal():
+    print('-' * 20)
+    print('--------MENU--------')
+    print('-' * 20)
+    print('1 - Gerenciar filmes.')
+    print('2 - Comprar ingressos.')
+    print('3 - Cadastrar usuário(Cliente/Administrador).')
+    print('0 - Sair.')
+
+def menu_administrador():
+    print('-' * 20)
+    print('--------MENU--------')
+    print('-' * 20)
+    print('1 - Adicionar filme.')
+    print('2 - Buscar filme.')
+    print('3 - Atualizar dados de algum filme.')
+    print('4 - Remover filme.')
+    print('5 - Mostrar filmes.')
+    print('6 - Ver rendimento.')
+    print('7 - Lista de todos os ingressos vendidos.')
+    print('8 - Lista de ingressos vendidos por filme.')
+    print('0 - Sair.')
+
+def menu_cliente():
+    print('-' * 20)
+    print('--------MENU--------')
+    print('-' * 20)
+    print('1 - Filmes em catálogo.')
+    print('2 - Ver ingressos comprados.')
+    print('3 - Ver filmes mais populares. ')
+    print('4 - Comprar ingressos.')
+    print('0 - Sair.')
+
+def menu_pagamento():
+    print('-' * 20)
+    print('FORMAS DE PAGAMENTO')
+    print('-' * 20)
+    print('1 - Cartão de crédito.')
+    print('2 - Cartão de Débito.')
+    print('3 - Pix.')
